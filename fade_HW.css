@@ -1,0 +1,28 @@
+.image-frame {
+	position:relative;
+	/*width:400px;
+	margin:auto;*/
+
+}
+
+.before {
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index: 0;
+}
+
+.after {
+	position:absolute;
+	top:0px;
+	left:0px;
+	opacity: 0;
+	z-index: 1;
+}
+
+img {
+	width:1200px;
+	height:800px;
+}
+/* 1. figure out how to make something transparent.
+ 2. use position:absulute; and coordinate values to stack both images on top of each other to the top left.*/
